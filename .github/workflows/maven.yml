@@ -29,5 +29,5 @@ jobs:
         cache: maven
         
     - name: test with Maven
-      run: mvn -B test --file pom.xml
+      run: mvn -B test --file core/pom.xml
     
